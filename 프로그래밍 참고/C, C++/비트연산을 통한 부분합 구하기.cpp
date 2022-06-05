@@ -32,7 +32,7 @@ int main(){
         }
     }
 
-    // 결과 출력 (-1 이라면 값이 존재하지 않음)
+    // 결과 출력
     if (exist){
         for(int i=0; i<idx.size(); i++)
             cout << idx[i] << ' ';
